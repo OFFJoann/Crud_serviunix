@@ -1,4 +1,3 @@
-// Script para confirmación antes de eliminar
 document.addEventListener('DOMContentLoaded', () => {
     const deleteButtons = document.querySelectorAll('.btn-delete');
     deleteButtons.forEach(button => {

@@ -27,9 +27,7 @@ class EmpleadoController {
         return $this->empleado->read();
     }
 
-    // Método para actualizar un empleado
     public function update($id, $data) {
-        // Asignamos los datos a la propiedad del objeto
         $this->empleado->id = $id;
         $this->empleado->nombres = $data['nombres'];
         $this->empleado->apellidos = $data['apellidos'];
@@ -39,16 +37,15 @@ class EmpleadoController {
         $this->empleado->genero_id = $data['genero_id'];
         $this->empleado->departamento_id = $data['departamento_id'];
 
-        return $this->empleado->update();  // Usamos el método update() del modelo
+        return $this->empleado->update();  
     }
     
-    // Método para eliminar un empleado
     public function delete($id) {
         $this->empleado->id = $id;
-        return $this->empleado->delete();  // Usamos el método delete() del modelo
+        return $this->empleado->delete();  
     }
 
-    // Método para obtener un empleado específico por ID
+
     public function readOne($id) {
         $this->empleado->id = $id;
         return $this->empleado->readOne();

@@ -50,8 +50,13 @@ th {
 }
 
 .btn-delete {
-    background-color: #dc3545;
+    background-color: #e7162b;
 }
+
+.btn-delete:hover{
+    background-color: rgb(239, 87, 87);
+    box-shadow: #5b5b5b;
+} 
 
 form {
     max-width: 500px;

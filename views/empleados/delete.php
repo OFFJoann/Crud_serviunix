@@ -6,7 +6,6 @@ $controller = new EmpleadoController();
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    // Intentar eliminar el empleado
     if ($controller->delete($id)) {
         header("Location: index.php");
         exit;
