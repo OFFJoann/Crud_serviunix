@@ -28,8 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label for="apellidos">Apellidos:</label>
             <input type="text" id="apellidos" name="apellidos" required>
             
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" required>
+            <label for="sueldo">Sueldo:</label>
+            <input type="decimal" id="sueldo" name="sueldo" required>
             
             <label for="fecha_ingreso">Fecha de Ingreso:</label>
             <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
