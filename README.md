@@ -4,27 +4,30 @@ Quiero expresar mi más sincero agradecimiento a la empresa **Serviunix** por br
 
 **Requisitos para ejecución**
 
-- XAMPP (Apache y MySQL).
+- XAMPP (para Apache y MySQL).
 - PHP 8.3.14 NTS.
 - repositorio: git@github.com:OFFJoann/Crud_serviunix.git.
-- Cualquier editor de texto.
+- Un editor de texto de tu preferencia (por ejemplo, Visual Studio Code, Sublime Text, o Notepad++).
 
-**Funcionamiento**
+**Descripción del proyecto**
 
-Esta aplicación permite ingresar a un portal web desarrollado en PHP por medio de un servidor apache el cual nos permite **crear, leer, editar y borrar** usuarios de una base de datos creada con MySQL con la aplicación XAMPP, la base de datos se encontrara dentro de el repositorio, por favor no cambiar el nombre de esta ya que puede afectra en el funcionamiento de la aplicación.
+Esta aplicación web, desarrollada en PHP, permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en una base de datos MySQL. Utiliza XAMPP como servidor local y está diseñada para gestionar usuarios.
+
+El repositorio incluye todos los archivos necesarios, incluyendo la base de datos y las consultas SQL.
 
 
 **Guia de ejecución**
 
 
-1. Descarga la aplicación del repositorio.
-2. Ejecuta XAMPP e inicia Apache y MySQL.
-3. La carpeta "proyecto" ponla en la ruta C:\xampp\htdocs\.
-4. En XAMPP en el servicio de MySQL vas a darle al boton "Admin" y alli importaras la Base de datos que se encuentra en la carpeta "proyecto" que se llamara "curl_php.sql".
-5. En tu navegador pondras en la barra de busqueda "http://localhost/proyecto/views/empleados/index.php" esto te llevara a la vista de los usuarios generados y te dara la opcion para generarlo.
+1. Clona o descarga el repositorio desde GitHub: git clone git@github.com:OFFJoann/Crud_serviunix.git.
+2. Inicia XAMPP y asegúrate de que los servicios de Apache y MySQL están corriendo.
+3. Copia la carpeta Crud_serviunix en la ruta C:\xampp\htdocs\.
+4. Abre phpMyAdmin desde XAMPP haciendo clic en el botón "Admin" en el servicio de MySQL y despues importa el archivo SQL curl_php.sql que se encuentra en la carpeta proyecto.
+5. En tu navegador, accede a: http://localhost/CRUD_Serviunix/views/empleados/index.php. Desde esta URL, podrás gestionar los usuarios (crear, leer, actualizar y eliminar).
 
 Nota:
 
-- En el repositorio se encuentran las consultas a la base de datos solicitadas en el punto numero 4, el archivo se llama "consultas.sql".
+- No cambies el nombre de la base de datos o de las carpetas indicadas, ya que esto podría afectar el funcionamiento de la aplicación.
+- El archivo consultas.sql incluido en el repositorio contiene las consultas SQL necesarias para este proyecto.
 
 **Espero les guste mucho, saludos.**
